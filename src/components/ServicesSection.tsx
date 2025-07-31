@@ -43,7 +43,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-left mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-brand-dark mb-4 font-linear-grotesk">
