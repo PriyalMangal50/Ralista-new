@@ -32,7 +32,7 @@ const HeroSection = () => {
                 <img 
                   src={earthImage} 
                   alt="Earth globe representing global reach" 
-                  className="w-80 h-80 object-contain"
+                  className="w-80 h-80 object-contain rounded-3xl"
                 />
               </div>
             </div>

@@ -2,9 +2,9 @@ import aboutImage from "@/assets/about-us.jpg";
 
 const AboutSection = () => {
   return (
-    <section className="py-20 bg-gray-50">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col lg:flex-row items-center gap-12">
+    <section className="py-16 bg-background">
+      <div className="container mx-auto px-4 max-w-6xl">
+        <div className="flex flex-col lg:flex-row items-center gap-8">
           <div className="lg:w-1/2">
             <h2 className="text-3xl lg:text-4xl font-bold text-brand-dark mb-6 font-glancyr">
               About Us
