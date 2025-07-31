@@ -18,6 +18,11 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				inter: ['Inter', 'sans-serif'],
+				'linear-grotesk': ['Linear Grotesk', 'sans-serif'],
+				glancyr: ['Glancyr', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -51,6 +56,14 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				'brand-dark': {
+					DEFAULT: 'hsl(var(--brand-dark))',
+					foreground: 'hsl(var(--brand-dark-foreground))'
+				},
+				'brand-lime': {
+					DEFAULT: 'hsl(var(--brand-lime))',
+					foreground: 'hsl(var(--brand-lime-foreground))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
