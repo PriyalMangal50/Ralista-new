@@ -2,9 +2,9 @@ import earthImage from "@/assets/earth-hero.png";
 
 const HeroSection = () => {
   return (
-    <section className="bg-brand-dark text-white min-h-[80vh] relative overflow-hidden">
-      <div className="container mx-auto px-4 py-16">
-        <div className="curved-box p-12 mx-4 relative">
+    <section className="bg-background relative overflow-hidden">
+      <div className="bg-brand-dark text-white min-h-[80vh] relative overflow-hidden rounded-b-[3rem] mx-4 mb-8">
+        <div className="container mx-auto px-4 py-16">
           <div className="flex flex-col lg:flex-row items-center justify-between">
             <div className="lg:w-1/2 space-y-6">
               <h1 className="text-4xl lg:text-6xl font-bold font-glancyr leading-tight">
