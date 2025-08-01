@@ -44,9 +44,9 @@ const ServicesSection = () => {
           </h2>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto justify-items-center">
           {services.slice(0, 6).map((service, index) => (
-            <div key={index} className="relative rounded-2xl overflow-hidden shadow-lg group h-64 w-full">
+            <div key={index} className="relative rounded-2xl overflow-hidden shadow-lg group h-64 w-full max-w-sm">
               <img 
                 src={service.image} 
                 alt={service.title}
@@ -64,10 +64,10 @@ const ServicesSection = () => {
         </div>
         
         {/* 7th box below 5th position */}
-        <div className="flex justify-center mt-6 max-w-5xl">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-x-6">
+        <div className="flex justify-center mt-6 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-x-6 justify-items-center">
             <div className="lg:col-start-2">
-              <div className="relative rounded-2xl overflow-hidden shadow-lg group h-64 w-full">
+              <div className="relative rounded-2xl overflow-hidden shadow-lg group h-64 w-full max-w-sm">
                 <img 
                   src={services[6].image} 
                   alt={services[6].title}

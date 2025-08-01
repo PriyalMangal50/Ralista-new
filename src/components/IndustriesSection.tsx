@@ -18,7 +18,7 @@ const IndustriesSection = () => {
       <div className="container mx-auto px-4 max-w-5xl">
         <div className="bg-[#233362] rounded-[2rem] p-8">
           <div className="mb-8 flex justify-between items-center">
-            <h2 className="text-3xl lg:text-4xl font-bold text-white font-glancyr">
+            <h2 className="text-3xl lg:text-4xl font-bold text-white font-glancyr ml-8">
               Industries
             </h2>
             <div className="flex space-x-2">

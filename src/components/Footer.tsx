@@ -3,70 +3,35 @@ import { Input } from "@/components/ui/input";
 
 const Footer = () => {
   return (
-    <footer className="bg-brand-dark text-white py-8">
+    <footer className="bg-brand-dark text-white py-4">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          <div>
-            <h2 className="text-2xl font-bold mb-4 font-glancyr">
-              Ready to expand your business globally?
-            </h2>
-            <p className="text-gray-300 mb-6 font-inter">
-              Let us help you connect with the right partners and unlock new opportunities in the global marketplace.
-            </p>
-            
-            <div className="flex items-center space-x-4 text-sm font-inter">
-              <span>Follow us:</span>
-              <a href="#" className="hover:text-brand-lime transition-colors">LinkedIn</a>
-              <a href="#" className="hover:text-brand-lime transition-colors">Twitter</a>
-              <a href="#" className="hover:text-brand-lime transition-colors">Facebook</a>
-            </div>
-          </div>
-          
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
-            <h3 className="text-2xl font-bold mb-6 font-glancyr">Get In Touch</h3>
-            <form className="space-y-4">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <Input 
-                  placeholder="First Name" 
-                  className="bg-white/20 border-white/30 text-white placeholder:text-gray-300"
-                />
-                <Input 
-                  placeholder="Last Name" 
-                  className="bg-white/20 border-white/30 text-white placeholder:text-gray-300"
-                />
-              </div>
-              <Input 
-                placeholder="Email Address" 
-                type="email"
-                className="bg-white/20 border-white/30 text-white placeholder:text-gray-300"
-              />
-              <Input 
-                placeholder="Phone Number" 
-                className="bg-white/20 border-white/30 text-white placeholder:text-gray-300"
-              />
-              <textarea 
-                placeholder="Message"
-                rows={4}
-                className="w-full p-3 bg-white/20 border border-white/30 rounded-lg text-white placeholder:text-gray-300 resize-none"
-              />
-              <Button className="w-full bg-brand-lime text-brand-dark hover:bg-brand-lime/90 font-semibold py-3">
-                Send Message
-              </Button>
-            </form>
-          </div>
+        <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 max-w-md mx-auto">
+          <form className="space-y-3">
+            <Input 
+              placeholder="First Name" 
+              className="bg-white/20 border-white/30 text-white placeholder:text-gray-300"
+            />
+            <Input 
+              placeholder="Last Name" 
+              className="bg-white/20 border-white/30 text-white placeholder:text-gray-300"
+            />
+            <Input 
+              placeholder="Email Address" 
+              type="email"
+              className="bg-white/20 border-white/30 text-white placeholder:text-gray-300"
+            />
+            <Input 
+              placeholder="Phone Number" 
+              className="bg-white/20 border-white/30 text-white placeholder:text-gray-300"
+            />
+          </form>
         </div>
         
-        <div className="border-t border-white/20 mt-8 pt-6 text-center">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <div className="w-8 h-8 bg-brand-lime rounded-lg flex items-center justify-center">
-                <span className="text-brand-dark font-bold text-sm">R</span>
-              </div>
-              <div className="text-xl font-bold font-glancyr">Ralista</div>
-            </div>
-            <p className="text-gray-300 font-inter">
-              © 2024 Ralista. All rights reserved.
-            </p>
+        <div className="border-t border-white/20 mt-6 pt-4 text-center">
+          <div className="flex justify-center items-center space-x-6">
+            <a href="#" className="text-white hover:text-brand-lime transition-colors font-inter">Home</a>
+            <a href="#" className="text-white hover:text-brand-lime transition-colors font-inter">Products</a>
+            <a href="#" className="text-white hover:text-brand-lime transition-colors font-inter">Industries</a>
           </div>
         </div>
       </div>
