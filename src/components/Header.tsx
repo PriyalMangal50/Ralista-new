@@ -10,7 +10,7 @@ const Header = () => {
             <div className="w-10 h-10 bg-brand-dark rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg">N</span>
             </div>
-            <div className="text-2xl font-bold font-glancyr text-brand-dark">NetGrit</div>
+            <div className="text-2xl font-bold font-glancyr text-brand-dark">Ralista</div>
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">

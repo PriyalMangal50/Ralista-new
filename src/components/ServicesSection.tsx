@@ -6,71 +6,54 @@ import service4 from "@/assets/service-4.jpg";
 const ServicesSection = () => {
   const services = [
     {
-      title: "Global Sourcing",
-      description: "Comprehensive sourcing solutions connecting you with trusted suppliers worldwide.",
+      title: "Personal Care & Hygiene Products",
       image: service1
     },
     {
-      title: "OEM Manufacturing",
-      description: "Custom manufacturing partnerships tailored to your specific product requirements.",
+      title: "Outdoor & HORECA Supplies",
       image: service2
     },
     {
-      title: "Supply Chain Management",
-      description: "End-to-end supply chain optimization for maximum efficiency and cost reduction.",
+      title: "Pet Products",
       image: service3
     },
     {
-      title: "Market Expansion",
-      description: "Strategic market entry solutions to help you expand into new territories.",
+      title: "Engineering & Precision Components",
       image: service4
     },
     {
-      title: "Procurement Services",
-      description: "Professional procurement services ensuring quality and cost-effectiveness.",
+      title: "Packaging Solutions",
       image: service1
     },
     {
-      title: "Quality Assurance",
-      description: "Rigorous quality control processes to maintain the highest standards.",
+      title: "Textile & Apparel",
       image: service2
-    },
-    {
-      title: "Logistics Solutions",
-      description: "Comprehensive logistics and distribution services for global reach.",
-      image: service3
     }
   ];
 
   return (
-    <section className="py-20 bg-background">
+    <section className="py-20" style={{backgroundColor: '#F1F5EB'}}>
       <div className="container mx-auto px-4">
-        <div className="text-left mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold text-brand-dark mb-4 font-linear-grotesk">
+        <div className="mb-12">
+          <h2 className="text-3xl lg:text-4xl font-bold mb-4 font-glancyr" style={{color: 'black'}}>
             What We Offer
           </h2>
-          <p className="text-gray-600 text-lg font-linear-grotesk">
-            Comprehensive solutions for your global business needs
-          </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl">
           {services.map((service, index) => (
-            <div key={index} className="service-card group">
-              <div className="h-48 overflow-hidden">
-                <img 
-                  src={service.image} 
-                  alt={service.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-brand-dark mb-3 font-glancyr">
-                  {service.title}
-                </h3>
-                <p className="text-gray-600 font-inter">
-                  {service.description}
-                </p>
+            <div key={index} className="relative rounded-2xl overflow-hidden shadow-lg group h-64">
+              <img 
+                src={service.image} 
+                alt={service.title}
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/40 flex items-end">
+                <div className="bg-[#233362] text-white p-4 m-4 rounded-lg w-full">
+                  <h3 className="text-lg font-semibold font-glancyr">
+                    {service.title}
+                  </h3>
+                </div>
               </div>
             </div>
           ))}
