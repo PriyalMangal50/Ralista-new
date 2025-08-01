@@ -5,7 +5,7 @@ const AboutSection = () => {
     <section className="py-16" style={{backgroundColor: '#F1F5EB'}}>
       <div className="container mx-auto px-4 max-w-5xl">
         <div className="flex flex-col lg:flex-row items-start gap-12">
-          <div className="lg:w-1/2 lg:pl-8 order-2 lg:order-1">
+          <div className="lg:w-1/2 order-2 lg:order-1">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4 font-glancyr text-[#233362]">
               About Us
             </h2>
