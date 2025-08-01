@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section className="relative overflow-hidden" style={{backgroundColor: '#F1F5EB'}}>
       <div className="container mx-auto px-4 py-8">
-        <div className="bg-[#233362] text-white min-h-[60vh] relative overflow-hidden rounded-[2rem] mx-4 mb-8">
+        <div className="bg-[#233362] text-white min-h-[75vh] relative overflow-hidden rounded-[2rem] mx-4 mb-8">
           <div className="container mx-auto px-6 py-12">
             <div className="flex flex-col lg:flex-row items-center justify-between">
               <div className="lg:w-1/2 space-y-6">

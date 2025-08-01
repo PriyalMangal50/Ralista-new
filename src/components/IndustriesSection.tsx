@@ -18,7 +18,7 @@ const IndustriesSection = () => {
       <div className="container mx-auto px-4">
         <div className="bg-[#233362] rounded-[2rem] p-8">
           <div className="mb-8 flex justify-between items-center">
-            <h2 className="text-3xl lg:text-4xl font-bold text-white font-glancyr ml-8">
+            <h2 className="text-3xl lg:text-4xl font-bold text-white font-glancyr">
               Industries
             </h2>
             <div className="flex space-x-2">
@@ -35,9 +35,9 @@ const IndustriesSection = () => {
             </div>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 px-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
             {industries.map((industry, index) => (
-              <div key={index} className={`relative rounded-lg overflow-hidden h-40 ${index === 0 ? 'w-full ml-4' : index >= 1 && index <= 4 ? 'w-4/5 mx-auto' : 'w-full mr-4'}`}>
+              <div key={index} className={`relative rounded-lg overflow-hidden h-40 ${index === 0 ? 'w-full' : index >= 1 && index <= 4 ? 'w-4/5 mx-auto' : 'w-full'}`}>
                 <img 
                   src={industry.image} 
                   alt={`Industry ${index + 1}`}
