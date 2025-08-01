@@ -21,13 +21,7 @@ const AboutSection = () => {
             </h2>
             <div className="space-y-4">
               <p className="text-lg leading-relaxed font-linear-grotesk" style={{color: 'black'}}>
-                At Ralista, we are dedicated to bridging global markets through innovative OEM procurement and supply chain solutions. Our expertise spans across diverse industries, helping businesses expand their reach and optimize their operations worldwide.
-              </p>
-              <p className="text-lg leading-relaxed font-linear-grotesk" style={{color: 'black'}}>
-                With years of experience in international trade and market expansion, we provide comprehensive solutions that enable our clients to achieve sustainable growth and competitive advantage in the global marketplace.
-              </p>
-              <p className="text-lg leading-relaxed font-linear-grotesk" style={{color: 'black'}}>
-                Our commitment to excellence and strategic partnerships ensures that every project we undertake delivers exceptional value and long-term success for our clients.
+                Ralista Source Pro LLP delivers dependable sourcing, OEM solutions, and global distribution across a diverse product range. With 20+ years of cross-border expertise, we bring speed, quality, and reliability to your supply chain—whether you're seeking hygiene goods, construction materials, engineered parts, or custom packaging.
               </p>
             </div>
           </div>

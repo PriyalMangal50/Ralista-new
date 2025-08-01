@@ -25,7 +25,7 @@ const IndustriesSection = () => {
           
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
             {industries.map((industry, index) => (
-              <div key={index} className="relative rounded-lg overflow-hidden h-40">
+              <div key={index} className={`relative rounded-lg overflow-hidden h-40 ${index === 0 ? 'w-full' : index >= 1 && index <= 4 ? 'w-4/5 mx-auto' : 'w-full'}`}>
                 <img 
                   src={industry.image} 
                   alt={`Industry ${index + 1}`}

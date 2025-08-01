@@ -28,6 +28,10 @@ const ServicesSection = () => {
     {
       title: "Textile & Apparel",
       image: service2
+    },
+    {
+      title: "Construction Materials",
+      image: service3
     }
   ];
 
@@ -41,7 +45,7 @@ const ServicesSection = () => {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl">
-          {services.map((service, index) => (
+          {services.slice(0, 6).map((service, index) => (
             <div key={index} className="relative rounded-2xl overflow-hidden shadow-lg group h-64">
               <img 
                 src={service.image} 
@@ -57,6 +61,28 @@ const ServicesSection = () => {
               </div>
             </div>
           ))}
+        </div>
+        
+        {/* 7th box below 5th position */}
+        <div className="flex justify-center mt-6 max-w-5xl">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-x-6">
+            <div className="lg:col-start-2">
+              <div className="relative rounded-2xl overflow-hidden shadow-lg group h-64">
+                <img 
+                  src={services[6].image} 
+                  alt={services[6].title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-black/40 flex items-end">
+                  <div className="bg-[#233362] text-white p-4 m-4 rounded-lg w-full">
+                    <h3 className="text-lg font-semibold font-glancyr">
+                      {services[6].title}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

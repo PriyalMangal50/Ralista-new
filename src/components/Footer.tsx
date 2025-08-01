@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 
 const Footer = () => {
   return (
-    <footer className="bg-brand-dark text-white py-16">
+    <footer className="bg-brand-dark text-white py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
@@ -56,11 +56,16 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="border-t border-white/20 mt-12 pt-8 text-center">
+        <div className="border-t border-white/20 mt-8 pt-6 text-center">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="text-2xl font-bold font-glancyr mb-4 md:mb-0">NetGrit</div>
+            <div className="flex items-center space-x-2 mb-4 md:mb-0">
+              <div className="w-8 h-8 bg-brand-lime rounded-lg flex items-center justify-center">
+                <span className="text-brand-dark font-bold text-sm">R</span>
+              </div>
+              <div className="text-xl font-bold font-glancyr">Ralista</div>
+            </div>
             <p className="text-gray-300 font-inter">
-              © 2024 NetGrit. All rights reserved.
+              © 2024 Ralista. All rights reserved.
             </p>
           </div>
         </div>
