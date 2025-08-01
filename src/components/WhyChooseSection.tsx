@@ -41,10 +41,10 @@ const WhyChooseSection = () => {
                 <span className="text-[#233362] font-bold text-2xl font-glancyr">0{index + 1}</span>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-3 font-glancyr" style={{color: 'black'}}>
+                <h3 className="text-xl font-semibold mb-3 font-glancyr text-[#233362]">
                   {feature.title}
                 </h3>
-                <p className="font-linear-grotesk" style={{color: 'black'}}>
+                <p className="font-linear-grotesk text-[#233362]">
                   {feature.description}
                 </p>
               </div>
@@ -59,10 +59,10 @@ const WhyChooseSection = () => {
                 <span className="text-[#233362] font-bold text-2xl font-glancyr">0{index + 4}</span>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-3 font-glancyr" style={{color: 'black'}}>
+                <h3 className="text-xl font-semibold mb-3 font-glancyr text-[#233362]">
                   {feature.title}
                 </h3>
-                <p className="font-linear-grotesk" style={{color: 'black'}}>
+                <p className="font-linear-grotesk text-[#233362]">
                   {feature.description}
                 </p>
               </div>

@@ -3,14 +3,14 @@ import { Input } from "@/components/ui/input";
 
 const Footer = () => {
   return (
-    <footer className="bg-brand-dark text-white py-12">
+    <footer className="bg-brand-dark text-white py-8">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div>
-            <h2 className="text-3xl font-bold mb-8 font-glancyr">
+            <h2 className="text-2xl font-bold mb-4 font-glancyr">
               Ready to expand your business globally?
             </h2>
-            <p className="text-gray-300 text-lg mb-8 font-inter">
+            <p className="text-gray-300 mb-6 font-inter">
               Let us help you connect with the right partners and unlock new opportunities in the global marketplace.
             </p>
             
