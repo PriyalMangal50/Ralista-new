@@ -39,7 +39,7 @@ const ServicesSection = () => {
     <section className="py-20" style={{backgroundColor: '#F1F5EB'}}>
       <div className="container mx-auto px-4">
         <div className="mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-4 font-glancyr" style={{color: 'black'}}>
+          <h2 className="text-3xl lg:text-4xl font-bold mb-4 font-glancyr ml-8" style={{color: 'black'}}>
             What We Offer
           </h2>
         </div>
