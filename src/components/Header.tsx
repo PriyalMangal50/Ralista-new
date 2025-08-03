@@ -31,9 +31,9 @@ const Header = () => {
             <a href="#industries" className="hover:text-brand-lime transition-colors font-linear-grotesk">Industries</a>
           </nav>
           
-          <Button variant="default" className="bg-brand-lime text-brand-dark hover:bg-brand-lime/90 font-medium font-linear-grotesk">
+          <button className="bg-transparent text-brand-dark border-2 border-brand-dark px-6 py-3 rounded-full font-linear-grotesk hover:bg-brand-dark hover:text-white transition-colors">
             Get an Appointment
-          </Button>
+          </button>
         </div>
       </div>
     </header>

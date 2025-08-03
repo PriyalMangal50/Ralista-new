@@ -29,9 +29,6 @@ const WhyChooseSection = () => {
           <h2 className="text-3xl lg:text-4xl font-bold mb-4 font-glancyr" style={{color: 'black'}}>
             Why Choose Ralista?
           </h2>
-          <p className="text-lg font-linear-grotesk" style={{color: 'black'}}>
-            Your trusted partner for global business success
-          </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">

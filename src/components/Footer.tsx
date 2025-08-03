@@ -3,28 +3,58 @@ import { Input } from "@/components/ui/input";
 
 const Footer = () => {
   return (
-    <footer className="bg-brand-dark text-white py-4">
+    <footer className="bg-brand-dark text-white py-8">
       <div className="container mx-auto px-4">
-        <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 max-w-md mx-auto">
-          <form className="space-y-3">
-            <Input 
-              placeholder="First Name" 
-              className="bg-white/20 border-white/30 text-white placeholder:text-gray-300"
-            />
-            <Input 
-              placeholder="Last Name" 
-              className="bg-white/20 border-white/30 text-white placeholder:text-gray-300"
-            />
-            <Input 
-              placeholder="Email Address" 
-              type="email"
-              className="bg-white/20 border-white/30 text-white placeholder:text-gray-300"
-            />
-            <Input 
-              placeholder="Phone Number" 
-              className="bg-white/20 border-white/30 text-white placeholder:text-gray-300"
-            />
-          </form>
+        <div className="flex flex-col lg:flex-row items-start justify-between gap-8">
+          <div className="lg:w-1/2">
+            <p className="text-lg font-linear-grotesk text-white leading-relaxed">
+              Ralista Source Pro LLP delivers dependable sourcing, OEM solutions, and global distribution across a diverse product range. With 20+ years of cross-border expertise, we bring speed, quality, and reliability to your supply chain.
+            </p>
+          </div>
+          
+          <div className="lg:w-1/2">
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6">
+              <form className="space-y-4">
+                <div className="flex items-center gap-3">
+                  <Input 
+                    placeholder="First Name" 
+                    className="bg-white/20 border-white/30 text-white placeholder:text-gray-300 flex-1"
+                  />
+                  <button className="bg-brand-lime text-brand-dark px-4 py-2 rounded-full font-linear-grotesk hover:bg-brand-lime/90 transition-colors whitespace-nowrap">
+                    Submit
+                  </button>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Input 
+                    placeholder="Last Name" 
+                    className="bg-white/20 border-white/30 text-white placeholder:text-gray-300 flex-1"
+                  />
+                  <button className="bg-brand-lime text-brand-dark px-4 py-2 rounded-full font-linear-grotesk hover:bg-brand-lime/90 transition-colors whitespace-nowrap">
+                    Submit
+                  </button>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Input 
+                    placeholder="Email Address" 
+                    type="email"
+                    className="bg-white/20 border-white/30 text-white placeholder:text-gray-300 flex-1"
+                  />
+                  <button className="bg-brand-lime text-brand-dark px-4 py-2 rounded-full font-linear-grotesk hover:bg-brand-lime/90 transition-colors whitespace-nowrap">
+                    Submit
+                  </button>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Input 
+                    placeholder="Phone Number" 
+                    className="bg-white/20 border-white/30 text-white placeholder:text-gray-300 flex-1"
+                  />
+                  <button className="bg-brand-lime text-brand-dark px-4 py-2 rounded-full font-linear-grotesk hover:bg-brand-lime/90 transition-colors whitespace-nowrap">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
         
         <div className="border-t border-white/20 mt-6 pt-4 text-center">

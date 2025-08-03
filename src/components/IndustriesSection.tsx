@@ -15,7 +15,7 @@ const IndustriesSection = () => {
 
   return (
     <section className="py-24" style={{backgroundColor: '#F1F5EB'}}>
-      <div className="container mx-auto px-4 max-w-7xl">
+      <div className="container mx-auto px-4">
         <div className="bg-[#233362] rounded-[2rem] p-8">
           <div className="mb-8 flex justify-between items-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white font-glancyr ml-8">
@@ -37,7 +37,7 @@ const IndustriesSection = () => {
           
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 px-8">
             {industries.map((industry, index) => (
-              <div key={index} className="relative rounded-lg overflow-hidden h-40 w-full">
+              <div key={index} className={`relative rounded-lg overflow-hidden h-40 ${index === 0 ? 'w-full' : 'w-3/4 mx-auto'}`}>
                 <img 
                   src={industry.image} 
                   alt={`Industry ${index + 1}`}
