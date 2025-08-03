@@ -11,7 +11,7 @@ const HeroSection = () => {
           <div className="absolute inset-0 bg-black/50 rounded-[2rem]"></div>
           <div className="relative px-8 py-12 h-full flex items-center">
             <div className="w-full">
-              <div className="space-y-6 ml-8">
+              <div className="space-y-6 ml-16 mt-16">
                 <h1 className="text-3xl lg:text-4xl font-medium font-glancyr leading-tight">
                   Global Sourcing OEM
                   <br />

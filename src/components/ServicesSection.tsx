@@ -44,7 +44,7 @@ const ServicesSection = () => {
           </h2>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto justify-items-center px-8">
           {services.slice(0, 6).map((service, index) => (
             <div key={index} className="relative rounded-2xl overflow-hidden shadow-lg group h-64 w-80">
               <img 

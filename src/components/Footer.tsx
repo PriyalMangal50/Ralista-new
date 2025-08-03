@@ -19,6 +19,9 @@ const Footer = () => {
                 alt="Company Logo" 
                 className="w-20 h-20 object-cover rounded-lg mb-4"
               />
+              <p className="text-sm text-gray-300 font-linear-grotesk">
+                Your trusted partner for global sourcing, OEM solutions, and strategic market expansion.
+              </p>
             </div>
             <p className="text-lg font-linear-grotesk text-white leading-relaxed">
               Ralista Source Pro LLP delivers dependable sourcing, OEM solutions, and global distribution across a diverse product range. With 20+ years of cross-border expertise, we bring speed, quality, and reliability to your supply chain.
