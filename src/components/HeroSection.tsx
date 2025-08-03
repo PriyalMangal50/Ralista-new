@@ -1,13 +1,17 @@
-import earthImage from "@/assets/earth-hero.png";
+import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
   return (
     <section className="relative overflow-hidden" style={{backgroundColor: '#F1F5EB'}}>
       <div className="container mx-auto px-4 py-8">
-        <div className="bg-[#233362] text-white min-h-[75vh] relative overflow-hidden rounded-[2rem] mb-8">
-          <div className="px-8 py-12">
-            <div className="flex flex-col lg:flex-row items-center justify-between">
-              <div className="lg:w-1/2 space-y-6">
+        <div 
+          className="text-white min-h-[75vh] relative overflow-hidden rounded-[2rem] mb-8 bg-cover bg-center bg-no-repeat"
+          style={{backgroundImage: `url(${heroBg})`}}
+        >
+          <div className="absolute inset-0 bg-black/50 rounded-[2rem]"></div>
+          <div className="relative px-8 py-12 h-full flex items-center">
+            <div className="w-full">
+              <div className="space-y-6 ml-8">
                 <h1 className="text-3xl lg:text-4xl font-medium font-glancyr leading-tight">
                   Global Sourcing OEM
                   <br />
@@ -15,20 +19,10 @@ const HeroSection = () => {
                   <br />
                   Market Expansion
                 </h1>
-                <div className="ml-8">
-                  <button className="bg-[#233362] text-white border-2 border-white px-4 py-2 rounded-full font-linear-grotesk hover:bg-white hover:text-[#233362] transition-colors text-sm">
+                <div>
+                  <button className="bg-transparent text-white border-2 border-white px-4 py-2 rounded-full font-linear-grotesk hover:bg-white hover:text-black transition-colors text-sm">
                     Get On a Call
                   </button>
-                </div>
-              </div>
-              
-              <div className="lg:w-1/2 flex justify-end mt-8 lg:mt-0">
-                <div className="relative">
-                  <img 
-                    src={earthImage} 
-                    alt="Earth globe representing global reach" 
-                    className="w-80 h-80 object-contain rounded-3xl"
-                  />
                 </div>
               </div>
             </div>

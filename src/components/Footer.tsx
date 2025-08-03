@@ -1,12 +1,25 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import footerBg from "@/assets/footer-bg.jpg";
+import logo from "@/assets/logo.jpg";
 
 const Footer = () => {
   return (
-    <footer className="bg-brand-dark text-white py-8">
-      <div className="container mx-auto px-4">
+    <footer 
+      className="text-white py-8 bg-cover bg-center bg-no-repeat relative"
+      style={{backgroundImage: `url(${footerBg})`}}
+    >
+      <div className="absolute inset-0 bg-black/70"></div>
+      <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col lg:flex-row items-start justify-between gap-8">
           <div className="lg:w-1/2">
+            <div className="mb-6">
+              <img 
+                src={logo} 
+                alt="Company Logo" 
+                className="w-20 h-20 object-cover rounded-lg mb-4"
+              />
+            </div>
             <p className="text-lg font-linear-grotesk text-white leading-relaxed">
               Ralista Source Pro LLP delivers dependable sourcing, OEM solutions, and global distribution across a diverse product range. With 20+ years of cross-border expertise, we bring speed, quality, and reliability to your supply chain.
             </p>
@@ -20,14 +33,14 @@ const Footer = () => {
                     placeholder="First Name" 
                     className="bg-white/20 border-white/30 text-white placeholder:text-gray-300 flex-1"
                   />
-                  <div className="w-4 h-4 bg-brand-lime rounded-full"></div>
+                  <div className="w-4 h-4 bg-brand-lime rounded-full shadow-lg shadow-brand-lime/50"></div>
                 </div>
                 <div className="flex items-center gap-3">
                   <Input 
                     placeholder="Last Name" 
                     className="bg-white/20 border-white/30 text-white placeholder:text-gray-300 flex-1"
                   />
-                  <div className="w-4 h-4 bg-brand-lime rounded-full"></div>
+                  <div className="w-4 h-4 bg-brand-lime rounded-full shadow-lg shadow-brand-lime/50"></div>
                 </div>
                 <div className="flex items-center gap-3">
                   <Input 
@@ -35,16 +48,24 @@ const Footer = () => {
                     type="email"
                     className="bg-white/20 border-white/30 text-white placeholder:text-gray-300 flex-1"
                   />
-                  <div className="w-4 h-4 bg-brand-lime rounded-full"></div>
+                  <div className="w-4 h-4 bg-brand-lime rounded-full shadow-lg shadow-brand-lime/50"></div>
                 </div>
                 <div className="flex items-center gap-3">
                   <Input 
                     placeholder="Phone Number" 
                     className="bg-white/20 border-white/30 text-white placeholder:text-gray-300 flex-1"
                   />
-                  <div className="w-4 h-4 bg-brand-lime rounded-full"></div>
+                  <div className="w-4 h-4 bg-brand-lime rounded-full shadow-lg shadow-brand-lime/50"></div>
                 </div>
               </form>
+            </div>
+            
+            <div className="mt-6 text-right">
+              <p className="text-white/80 font-inter leading-relaxed">
+                Connect with us for innovative solutions and strategic partnerships. 
+                <br />
+                Your success is our priority.
+              </p>
             </div>
           </div>
         </div>
