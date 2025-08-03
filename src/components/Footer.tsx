@@ -20,18 +20,14 @@ const Footer = () => {
                     placeholder="First Name" 
                     className="bg-white/20 border-white/30 text-white placeholder:text-gray-300 flex-1"
                   />
-                  <button className="bg-brand-lime text-brand-dark px-4 py-2 rounded-full font-linear-grotesk hover:bg-brand-lime/90 transition-colors whitespace-nowrap">
-                    Submit
-                  </button>
+                  <div className="w-4 h-4 bg-brand-lime rounded-full"></div>
                 </div>
                 <div className="flex items-center gap-3">
                   <Input 
                     placeholder="Last Name" 
                     className="bg-white/20 border-white/30 text-white placeholder:text-gray-300 flex-1"
                   />
-                  <button className="bg-brand-lime text-brand-dark px-4 py-2 rounded-full font-linear-grotesk hover:bg-brand-lime/90 transition-colors whitespace-nowrap">
-                    Submit
-                  </button>
+                  <div className="w-4 h-4 bg-brand-lime rounded-full"></div>
                 </div>
                 <div className="flex items-center gap-3">
                   <Input 
@@ -39,18 +35,14 @@ const Footer = () => {
                     type="email"
                     className="bg-white/20 border-white/30 text-white placeholder:text-gray-300 flex-1"
                   />
-                  <button className="bg-brand-lime text-brand-dark px-4 py-2 rounded-full font-linear-grotesk hover:bg-brand-lime/90 transition-colors whitespace-nowrap">
-                    Submit
-                  </button>
+                  <div className="w-4 h-4 bg-brand-lime rounded-full"></div>
                 </div>
                 <div className="flex items-center gap-3">
                   <Input 
                     placeholder="Phone Number" 
                     className="bg-white/20 border-white/30 text-white placeholder:text-gray-300 flex-1"
                   />
-                  <button className="bg-brand-lime text-brand-dark px-4 py-2 rounded-full font-linear-grotesk hover:bg-brand-lime/90 transition-colors whitespace-nowrap">
-                    Submit
-                  </button>
+                  <div className="w-4 h-4 bg-brand-lime rounded-full"></div>
                 </div>
               </form>
             </div>

@@ -35,16 +35,16 @@ const IndustriesSection = () => {
             </div>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 px-8">
+          <div className="flex gap-4 px-8 overflow-hidden">
             {industries.map((industry, index) => (
-              <div key={index} className={`relative rounded-lg overflow-hidden h-40 ${index === 0 ? 'w-full' : 'w-3/4 mx-auto'}`}>
+              <div key={index} className={`relative rounded-2xl overflow-hidden flex-shrink-0 ${index === 0 ? 'w-80 h-64' : 'w-48 h-64'}`}>
                 <img 
                   src={industry.image} 
                   alt={`Industry ${index + 1}`}
                   className="w-full h-full object-cover"
                 />
                 {industry.hasLabel && index === 0 && (
-                  <div className="absolute bottom-0 left-0 right-0 bg-[#D0F500] p-2">
+                  <div className="absolute bottom-4 left-4 right-4 bg-[#D0F500] p-3 rounded-xl">
                     <p className="text-[#233362] text-sm font-semibold font-linear-grotesk text-center">
                       Hospitality & HORECA
                     </p>
