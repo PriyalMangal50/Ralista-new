@@ -16,9 +16,6 @@ const HeroSection = () => {
                   Market Expansion
                 </h1>
                 <div className="ml-8">
-                  <p className="text-lg text-gray-300 font-linear-grotesk font-normal mb-4">
-                    Connecting businesses worldwide with innovative solutions and strategic partnerships for sustainable growth.
-                  </p>
                   <button className="bg-[#233362] text-white border-2 border-white px-4 py-2 rounded-full font-linear-grotesk hover:bg-white hover:text-[#233362] transition-colors text-sm">
                     Get On a Call
                   </button>
