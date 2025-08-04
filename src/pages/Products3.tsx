@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ProductCategoriesSection from "@/components/ProductCategoriesSection";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const Products3 = () => {
@@ -68,6 +69,8 @@ const Products3 = () => {
           </div>
         </div>
       </section>
+
+      <ProductCategoriesSection />
       
       <Footer />
     </div>

@@ -35,7 +35,7 @@ const IndustriesSection = () => {
             </div>
           </div>
           
-          <div className="flex gap-4 px-8 overflow-hidden">
+          <div className="flex gap-4 px-8 overflow-hidden justify-center">
             {industries.map((industry, index) => (
               <div key={index} className={`relative rounded-2xl overflow-hidden flex-shrink-0 ${index === 0 ? 'w-72 h-64' : 'w-40 h-64'}`}>
                 <img 

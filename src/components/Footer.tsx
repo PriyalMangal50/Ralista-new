@@ -13,15 +13,12 @@ const Footer = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col lg:flex-row items-start justify-between gap-8">
           <div className="lg:w-1/2">
-            <div className="mb-6 flex items-center gap-4">
+            <div className="mb-6">
               <img 
                 src={logo} 
                 alt="Company Logo" 
                 className="w-20 h-20 object-cover rounded-lg"
               />
-              <p className="text-sm text-gray-300 font-linear-grotesk">
-                Your trusted partner for global sourcing, OEM solutions, and strategic market expansion.
-              </p>
             </div>
             <p className="text-lg font-linear-grotesk text-white leading-relaxed">
               Ralista Source Pro LLP delivers dependable sourcing, OEM solutions, and global distribution across a diverse product range. With 20+ years of cross-border expertise, we bring speed, quality, and reliability to your supply chain.
@@ -64,6 +61,9 @@ const Footer = () => {
             </div>
             
             <div className="mt-6 text-right">
+              <p className="text-sm text-gray-300 font-linear-grotesk mb-4">
+                Your trusted partner for global sourcing, OEM solutions, and strategic market expansion.
+              </p>
               <p className="text-white/80 font-inter leading-relaxed">
                 Connect with us for innovative solutions and strategic partnerships. 
                 <br />

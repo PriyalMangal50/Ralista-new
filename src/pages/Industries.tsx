@@ -32,50 +32,74 @@ const Industries = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="relative rounded-2xl overflow-hidden h-64">
-              <img src="/src/assets/service-1.jpg" alt="Hospitality & HORECA" className="w-full h-full object-cover" />
-              <div className="absolute bottom-4 left-4 right-4 bg-white/10 backdrop-blur-sm p-3 rounded-xl">
-                <p className="text-[#233362] text-lg font-bold font-linear-grotesk text-center bg-white rounded-lg py-2">
-                  Hospitality & HORECA
+              <img 
+                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&h=300&fit=crop" 
+                alt="Technology Industry" 
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute bottom-4 left-4 right-4 bg-white/90 p-3 rounded-xl">
+                <p className="text-[#233362] text-sm font-semibold font-linear-grotesk text-center">
+                  Technology Solutions
                 </p>
               </div>
             </div>
             <div className="relative rounded-2xl overflow-hidden h-64">
-              <img src="/src/assets/service-2.jpg" alt="Healthcare" className="w-full h-full object-cover" />
-              <div className="absolute bottom-4 left-4 right-4 bg-white/10 backdrop-blur-sm p-3 rounded-xl">
-                <p className="text-[#233362] text-lg font-bold font-linear-grotesk text-center bg-white rounded-lg py-2">
-                  Healthcare
-                </p>
-              </div>
-            </div>
-            <div className="relative rounded-2xl overflow-hidden h-64">
-              <img src="/src/assets/service-3.jpg" alt="Manufacturing" className="w-full h-full object-cover" />
-              <div className="absolute bottom-4 left-4 right-4 bg-white/10 backdrop-blur-sm p-3 rounded-xl">
-                <p className="text-[#233362] text-lg font-bold font-linear-grotesk text-center bg-white rounded-lg py-2">
+              <img 
+                src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=300&fit=crop" 
+                alt="Manufacturing Industry" 
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute bottom-4 left-4 right-4 bg-white/90 p-3 rounded-xl">
+                <p className="text-[#233362] text-sm font-semibold font-linear-grotesk text-center">
                   Manufacturing
                 </p>
               </div>
             </div>
             <div className="relative rounded-2xl overflow-hidden h-64">
-              <img src="/src/assets/service-4.jpg" alt="Retail" className="w-full h-full object-cover" />
-              <div className="absolute bottom-4 left-4 right-4 bg-white/10 backdrop-blur-sm p-3 rounded-xl">
-                <p className="text-[#233362] text-lg font-bold font-linear-grotesk text-center bg-white rounded-lg py-2">
-                  Retail
+              <img 
+                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&h=300&fit=crop" 
+                alt="Software Development" 
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute bottom-4 left-4 right-4 bg-white/90 p-3 rounded-xl">
+                <p className="text-[#233362] text-sm font-semibold font-linear-grotesk text-center">
+                  Software Development
                 </p>
               </div>
             </div>
             <div className="relative rounded-2xl overflow-hidden h-64">
-              <img src="/src/assets/service-1.jpg" alt="Education" className="w-full h-full object-cover" />
-              <div className="absolute bottom-4 left-4 right-4 bg-white/10 backdrop-blur-sm p-3 rounded-xl">
-                <p className="text-[#233362] text-lg font-bold font-linear-grotesk text-center bg-white rounded-lg py-2">
-                  Education
+              <img 
+                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=300&fit=crop" 
+                alt="Business Solutions" 
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute bottom-4 left-4 right-4 bg-white/90 p-3 rounded-xl">
+                <p className="text-[#233362] text-sm font-semibold font-linear-grotesk text-center">
+                  Business Solutions
                 </p>
               </div>
             </div>
             <div className="relative rounded-2xl overflow-hidden h-64">
-              <img src="/src/assets/service-2.jpg" alt="Agriculture" className="w-full h-full object-cover" />
-              <div className="absolute bottom-4 left-4 right-4 bg-white/10 backdrop-blur-sm p-3 rounded-xl">
-                <p className="text-[#233362] text-lg font-bold font-linear-grotesk text-center bg-white rounded-lg py-2">
-                  Agriculture
+              <img 
+                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=300&fit=crop" 
+                alt="Digital Services" 
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute bottom-4 left-4 right-4 bg-white/90 p-3 rounded-xl">
+                <p className="text-[#233362] text-sm font-semibold font-linear-grotesk text-center">
+                  Digital Services
+                </p>
+              </div>
+            </div>
+            <div className="relative rounded-2xl overflow-hidden h-64">
+              <img 
+                src="https://images.unsplash.com/photo-1485833077593-4278bba3f11f?w=500&h=300&fit=crop" 
+                alt="Environmental Solutions" 
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute bottom-4 left-4 right-4 bg-white/90 p-3 rounded-xl">
+                <p className="text-[#233362] text-sm font-semibold font-linear-grotesk text-center">
+                  Environmental
                 </p>
               </div>
             </div>
