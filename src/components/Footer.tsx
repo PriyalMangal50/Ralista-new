@@ -13,11 +13,11 @@ const Footer = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col lg:flex-row items-start justify-between gap-8">
           <div className="lg:w-1/2">
-            <div className="mb-6">
+            <div className="mb-6 flex items-center gap-4">
               <img 
                 src={logo} 
                 alt="Company Logo" 
-                className="w-20 h-20 object-cover rounded-lg mb-4"
+                className="w-20 h-20 object-cover rounded-lg"
               />
               <p className="text-sm text-gray-300 font-linear-grotesk">
                 Your trusted partner for global sourcing, OEM solutions, and strategic market expansion.

@@ -15,19 +15,18 @@ public/
 
 ### For Glancyr:
 1. Extract your `glancyr.zip` file
-2. Copy the `.otf` files from the `otf` folder to `public/fonts/glancyr/`
-3. Rename them to:
-   - `Glancyr-Regular.otf`
-   - `Glancyr-Medium.otf` 
-   - `Glancyr-Bold.otf`
+2. From the `otf` folder, copy these files to `public/fonts/glancyr/`:
+   - `glancyr-glancyr-regular-400.otf` (rename to `Glancyr-Regular.otf`)
+   - `glancyr-glancyr-medium-500.otf` (rename to `Glancyr-Medium.otf`)
+   - `glancyr-glancyr-bold-700.otf` (rename to `Glancyr-Bold.otf`)
 
 ### For Linear Grotesk:
 1. Extract your `linear-grotesk-modern-sans-serif-font-family-wjvvcx9.zip` file
-2. Copy the `.otf` files from the `otf` folder to `public/fonts/linear-grotesk/`
-3. Rename them to:
-   - `LinearGrotesk-Regular.otf`
-   - `LinearGrotesk-Medium.otf`
-   - `LinearGrotesk-Bold.otf`
+2. Navigate to `desktop fonts/otf` folder
+3. Copy these files to `public/fonts/linear-grotesk/`:
+   - `LinearGrotesk-Regular.otf` (keep same name)
+   - `LinearGrotesk-Medium.otf` (keep same name)
+   - `LinearGrotesk-Bold.otf` (keep same name)
 
 ## Step 3: Font Declarations
 The font faces are already declared in `src/index.css` and will work once you place the font files in the correct locations.
