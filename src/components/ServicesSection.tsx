@@ -44,7 +44,7 @@ const ServicesSection = () => {
           </h2>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto justify-items-center px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto justify-items-center">
           {services.slice(0, 6).map((service, index) => (
             <div key={index} className="relative rounded-2xl overflow-hidden shadow-lg group h-64 w-80">
               <img 
@@ -63,23 +63,19 @@ const ServicesSection = () => {
           ))}
         </div>
         
-        {/* 7th box below 5th position */}
-        <div className="flex justify-center mt-6 max-w-5xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-x-6 justify-items-center">
-            <div className="lg:col-start-2">
-              <div className="relative rounded-2xl overflow-hidden shadow-lg group h-64 w-80">
-                <img 
-                  src={services[6].image} 
-                  alt={services[6].title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-black/40 flex items-end">
-                  <div className="bg-[#233362] text-white p-4 m-4 rounded-lg w-full">
-                    <h3 className="text-lg font-semibold font-glancyr">
-                      {services[6].title}
-                    </h3>
-                  </div>
-                </div>
+        {/* 7th box below center */}
+        <div className="flex justify-center mt-8 max-w-6xl mx-auto">
+          <div className="relative rounded-2xl overflow-hidden shadow-lg group h-64 w-80">
+            <img 
+              src={services[6].image} 
+              alt={services[6].title}
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            />
+            <div className="absolute inset-0 bg-black/40 flex items-end">
+              <div className="bg-[#233362] text-white p-4 m-4 rounded-lg w-full">
+                <h3 className="text-lg font-semibold font-glancyr">
+                  {services[6].title}
+                </h3>
               </div>
             </div>
           </div>

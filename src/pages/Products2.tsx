@@ -15,13 +15,13 @@ const Products2 = () => {
             style={{backgroundImage: `url(${heroBg})`}}
           >
             <div className="absolute inset-0 bg-black/50 rounded-[2rem]"></div>
-            <div className="relative px-8 py-12 h-full flex items-center justify-center">
-              <div className="text-center">
-                <h1 className="text-4xl lg:text-5xl font-bold font-glancyr mb-4">
+            <div className="relative px-8 py-12 h-full flex items-start justify-start">
+              <div className="text-left ml-8 mt-8">
+                <h1 className="text-4xl lg:text-5xl font-bold font-glancyr mb-4 text-white">
                   Products
                 </h1>
                 <p className="text-lg font-linear-grotesk text-gray-300">
-                  Home &gt; Products &gt; Personal Care &amp; Hygiene Products
+                  Home &gt; Products &gt; Industrial Products
                 </p>
               </div>
             </div>
@@ -34,14 +34,14 @@ const Products2 = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-2/3">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-6 font-glancyr text-[#233362]">
-                Head to Toe Personal Care Products
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6 font-glancyr text-black">
+                Industrial & Manufacturing Solutions
               </h2>
-              <h3 className="text-xl lg:text-2xl font-medium mb-6 font-linear-grotesk text-gray-700">
-                Elevate Everyday Care with Thoughtfully Crafted Essentials
+              <h3 className="text-xl lg:text-2xl font-medium mb-6 font-linear-grotesk text-black">
+                Comprehensive Industrial Products for Modern Manufacturing
               </h3>
-              <p className="text-lg font-linear-grotesk text-gray-600 leading-relaxed">
-                From morning routines to nighttime rituals, your body deserves care that goes beyond the basics. Our head-to-toe personal care collection is built around real needs—hydration, hygiene, nourishment, and refreshment. Each product is formulated with quality ingredients and practical convenience in mind, helping you feel confident and cared for, every day.
+              <p className="text-lg font-linear-grotesk text-black leading-relaxed">
+                Our industrial product range delivers reliability and performance across diverse manufacturing sectors. From specialized chemicals to precision components, we provide solutions that meet stringent quality standards and operational demands. Each product is engineered for durability, efficiency, and optimal performance in challenging industrial environments.
               </p>
             </div>
             <div className="lg:w-1/3">
@@ -58,12 +58,12 @@ const Products2 = () => {
       {/* Why Section */}
       <section className="py-16" style={{backgroundColor: '#F1F5EB'}}>
         <div className="container mx-auto px-4">
-          <div className="bg-white rounded-2xl p-8 shadow-lg">
-            <h2 className="text-3xl font-bold mb-6 font-glancyr text-[#233362]">
+          <div className="rounded-2xl p-8">
+            <h2 className="text-3xl font-bold mb-6 font-glancyr text-black">
               Why?
             </h2>
-            <p className="text-lg font-linear-grotesk text-gray-700 leading-relaxed">
-              Formulated for Daily Use – Safe, gentle ingredients for all skin and hair types. Diverse Product Range – From core skincare to specialized toiletries Trusted Quality – Manufactured under strict quality controls. Available in Retail, Bulk &amp; OEM – Flexible packaging and labeling options.
+            <p className="text-lg font-linear-grotesk text-black leading-relaxed">
+              Industrial Grade Quality – Engineered for demanding industrial applications. Comprehensive Range – From chemicals to components and machinery. Certified Standards – Meets international quality and safety certifications. Flexible Supply Options – Available in bulk quantities with custom specifications.
             </p>
           </div>
         </div>
