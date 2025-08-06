@@ -6,14 +6,13 @@ const AboutSection = () => {
       <div className="container mx-auto px-4 max-w-5xl">
         <div className="flex flex-col lg:flex-row items-start gap-12">
           <div className="lg:w-1/2 order-2 lg:order-1">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-4 font-glancyr" style={{color: 'black'}}>
+            <h2 className="text-4xl lg:text-5xl mb-4 font-glancyr" style={{color:'#233362'}}>
               About Us
             </h2>
             <div className="space-y-4">
-              <p className="text-lg leading-relaxed font-linear-grotesk" style={{color: 'black'}}>
-                Ralista Source Pro LLP delivers dependable sourcing, OEM solutions, and global distribution across a diverse product range. With 20+ years of cross-border expertise, we bring speed, quality, and reliability to your supply chain—whether you're seeking hygiene goods, construction materials, engineered parts, or custom packaging.
-              </p>
-            </div>
+              <p className="text-lg leading-relaxed font-linear-grotesk" style={{color: '#233362'}}>
+Ralista Source Pro LLP is your trusted global sourcing and distribution partner. With over 20 years of cross-border trade expertise, we specialize in delivering end-to-end solutions across a wide range of industries. From everyday hygiene essentials and personal care items to construction materials, industrial components, and customized packaging, we ensure quality, consistency, and speed at every step. Our tailored OEM and private-label services are designed to help your brand scale quickly with confidence.</p>
+        </div>
           </div>
           
           <div className="lg:w-1/2 lg:pr-8 order-1 lg:order-2">

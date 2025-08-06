@@ -3,9 +3,9 @@
 To install the custom fonts (Glancyr and Linear Grotesk), please follow these steps:
 
 ## Step 1: Create Font Directories
-Create the following folder structure in the `public` directory:
+ the following folder structure in the `public` directory:
 ```
-public/
+public/Create
   fonts/
     glancyr/
     linear-grotesk/

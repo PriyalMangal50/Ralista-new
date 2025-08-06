@@ -17,11 +17,15 @@ export default {
 				'2xl': '1400px'
 			}
 		},
+		// tailwind.config.js
+
 		extend: {
 			fontFamily: {
-				inter: ['Inter', 'sans-serif'],
-				'linear-grotesk': ['Linear Grotesk', 'sans-serif'],
-				glancyr: ['Glancyr', 'sans-serif'],
+  		inter: ['Inter', 'sans-serif'],
+  linearGrotesk: ['LinearGrotesk', 'sans-serif'], // ✅ No space
+  glancyr: ['Glancyr', 'sans-serif'],
+
+
 			},
 			colors: {
 				border: 'hsl(var(--border))',

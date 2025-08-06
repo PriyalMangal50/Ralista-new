@@ -1,7 +1,10 @@
-import service1 from "@/assets/service-1.jpg";
-import service2 from "@/assets/service-2.jpg";
-import service3 from "@/assets/service-3.jpg";
-import service4 from "@/assets/service-4.jpg";
+import service1 from "@/assets/a1.png";
+import service2 from "@/assets/a2.png";
+import service3 from "@/assets/a3.png";
+import service4 from "@/assets/a4.png";
+import service5 from "@/assets/a5.png";
+import service6 from "@/assets/a6.png";
+import service7 from "@/assets/a7.png";
 
 const ServicesSection = () => {
   const services = [
@@ -23,15 +26,15 @@ const ServicesSection = () => {
     },
     {
       title: "Packaging Solutions",
-      image: service1
+      image: service5
     },
     {
       title: "Textile & Apparel",
-      image: service2
+      image: service6
     },
     {
       title: "Construction Materials",
-      image: service3
+      image: service7
     }
   ];
 
@@ -39,7 +42,7 @@ const ServicesSection = () => {
     <section className="py-20" style={{backgroundColor: '#F1F5EB'}}>
       <div className="container mx-auto px-4 max-w-5xl">
         <div className="mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-4 font-glancyr" style={{color: 'black'}}>
+          <h2 className="text-4xl lg:text-5xl mb-4 font-glancyr" style={{color: '#233362'}}>
             What We Offer
           </h2>
         </div>
@@ -52,9 +55,9 @@ const ServicesSection = () => {
                 alt={service.title}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
-              <div className="absolute inset-0 bg-black/40 flex items-end">
+              <div className="absolute inset-0 bg-black/1 flex items-end">
                 <div className="bg-[#233362] text-white p-4 m-4 rounded-lg w-full">
-                  <h3 className="text-lg font-semibold font-glancyr">
+                  <h3 className="text-lg font-glancyr">
                     {service.title}
                   </h3>
                 </div>
@@ -71,9 +74,9 @@ const ServicesSection = () => {
               alt={services[6].title}
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             />
-            <div className="absolute inset-0 bg-black/40 flex items-end">
+            <div className="absolute inset-0 bg-black/1 flex items-end">
               <div className="bg-[#233362] text-white p-4 m-4 rounded-lg w-full">
-                <h3 className="text-lg font-semibold font-glancyr">
+                <h3 className="text-lg font-glancyr">
                   {services[6].title}
                 </h3>
               </div>

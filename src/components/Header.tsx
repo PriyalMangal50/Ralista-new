@@ -1,18 +1,17 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
+import logoImage from "@/assets/image.png"; // adjust the path as needed
 
 const Header = () => {
   return (
     <header className="bg-background text-brand-dark">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-brand-dark rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">N</span>
-            </div>
-            <div className="text-2xl font-bold font-glancyr text-brand-dark">Ralista</div>
+          {/* Logo Image */}
+          <div className="flex items-center">
+            <img src={logoImage} alt="Logo" className="h-10 w-auto" />
           </div>
-          
+
           <nav className="hidden md:flex items-center space-x-8">
             <a href="/" className="hover:text-brand-lime transition-colors font-linear-grotesk">Home</a>
             <div className="relative group">
@@ -25,12 +24,18 @@ const Header = () => {
                   <a href="/products1" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Personal Care Products</a>
                   <a href="/products2" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Industrial Products</a>
                   <a href="/products3" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Specialty Products</a>
+                  <a href="/products4" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Camping and Outdoor</a>
+                  <a href="/products5" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Packaging Products</a>
+                  <a href="/products6" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Wet Wipes</a>
+                  <a href="/products7" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Cleaning Solutions</a>
                 </div>
               </div>
             </div>
             <a href="/industries" className="hover:text-brand-lime transition-colors font-linear-grotesk">Industries</a>
+            <a href="/contact" className="hover:text-brand-lime transition-colors font-linear-grotesk">Contact</a>
+
           </nav>
-          
+
           <button className="bg-transparent text-brand-dark border-2 border-brand-dark px-6 py-3 rounded-full font-linear-grotesk hover:bg-brand-dark hover:text-white transition-colors">
             Get an Appointment
           </button>

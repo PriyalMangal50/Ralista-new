@@ -1,74 +1,77 @@
+import icon1 from "@/assets/01.png";
+import icon2 from "@/assets/02.png";
+import icon3 from "@/assets/03.png";
+import icon4 from "@/assets/04.png";
+import icon5 from "@/assets/05.png";
+
 const WhyChooseSection = () => {
   const features = [
     {
-      title: "Global Network",
-      description: "Extensive worldwide network of trusted partners and suppliers"
+      title: "Multi-Category Expertise",
+      description: "From personal care to precision components, we handle a wide sourcing footprint under one roof.",
+      icon: icon1
     },
     {
-      title: "Quality Assurance", 
-      description: "Rigorous quality control processes ensuring premium standards"
+      title: "End-to-End Control",
+      description: "From design to delivery, we manage product development, compliance, packaging, and documentation.",
+      icon: icon2
     },
     {
-      title: "Cost Optimization",
-      description: "Strategic cost reduction without compromising on quality"
+      title: "Global Delivery, Indian Backbone",
+      description: "Rooted in India with a wide export network across the Middle East, Europe, Africa, and the Americas.",
+      icon: icon3
     },
     {
-      title: "Expert Team",
-      description: "Industry experts with decades of combined experience"
+      title: "Transparent Sourcing",
+      description: "You see what we see—real-time updates, sample validation, and proactive communication at every step.",
+      icon: icon4
     },
     {
-      title: "Timely Delivery",
-      description: "Reliable delivery schedules meeting your business deadlines"
+      title: "Connect with other categories",
+      description: "Personal Care Products, Cleaning & Hygiene, Outdoor & HORECA, Construction & Engineering, Pet Care, Packaging & Textiles.",
+      icon: icon5
     }
   ];
 
   return (
-    <section className="py-20" style={{backgroundColor: '#F1F5EB'}}>
+    <section className="py-16" style={{ backgroundColor: '#F1F5EB' }}>
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-4 font-glancyr" style={{color: 'black'}}>
+        <div className="text-center mb-10">
+          <h2 className="text-4xl lg:text-6xl font-glancyr text-[#233362]">
             Why Choose Ralista?
           </h2>
         </div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
-          {features.slice(0, 3).map((feature, index) => (
-            <div key={index} className="flex items-start p-6 bg-white rounded-lg shadow-sm">
-              <div className="flex-shrink-0 mr-4">
-                <span className="text-[#233362] font-bold text-2xl font-glancyr">0{index + 1}</span>
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold mb-3 font-glancyr text-[#233362]">
-                  {feature.title}
-                </h3>
-                <p className="font-linear-grotesk text-[#233362]">
-                  {feature.description}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
-          {features.slice(3, 5).map((feature, index) => (
-            <div key={index + 3} className="flex items-start p-6 bg-white rounded-lg shadow-sm">
-              <div className="flex-shrink-0 mr-4">
-                <span className="text-[#233362] font-bold text-2xl font-glancyr">0{index + 4}</span>
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold mb-3 font-glancyr text-[#233362]">
-                  {feature.title}
-                </h3>
-                <p className="font-linear-grotesk text-[#233362]">
-                  {feature.description}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
+
+        <div className="flex flex-col items-center gap-y-6">
+  {/* Top Row: 3 cards centered */}
+  <div className="flex flex-row gap-4 justify-center flex-wrap">
+    <FeatureCard {...features[0]} />
+    <FeatureCard {...features[1]} />
+    <FeatureCard {...features[2]} />
+  </div>
+
+  {/* Bottom Row: 2 cards centered with overlap */}
+  <div className="flex flex-row gap-4 justify-center -mt-6">
+    <FeatureCard {...features[3]} />
+    <FeatureCard {...features[4]} />
+  </div>
+</div>
+
+
+
       </div>
     </section>
   );
 };
+
+const FeatureCard = ({ icon, title, description }) => (
+  <div className="w-96 h-60 bg-transparent text-left p-6 rounded-xl shadow-sm flex flex-col items-start">
+    <img src={icon} alt={title} className="w-12 h-12 mb-4" />
+    <h3 className="text-xl mb-4 font-semibold font-glancyr text-[#233362]">
+      {title}
+    </h3>
+    <p className="text-sm font-linear-grotesk text-[#233362]">{description}</p>
+  </div>
+);
 
 export default WhyChooseSection;

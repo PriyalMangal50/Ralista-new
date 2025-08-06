@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Linear+Grotesk:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Glancyr:wght@300;400;500;600;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -111,10 +108,12 @@
   }
 
   body {
-    background-color: #F1F5EB;
-    color: hsl(var(--foreground));
-    font-family: 'Linear Grotesk', sans-serif;
-  }
+  background-color: #F1F5EB;
+  color: hsl(var(--foreground));
+  font-family: 'LinearGrotesk', sans-serif; /* ✅ fixed name */
+}
+
+  
 }
 
 @layer components {
