@@ -22,12 +22,12 @@ const Header = () => {
               <div className="absolute top-full left-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                 <div className="py-2">
                   <a href="/products1" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Personal Care Products</a>
-                  <a href="/products2" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Industrial Products</a>
-                  <a href="/products3" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Specialty Products</a>
-                  <a href="/products4" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Camping and Outdoor</a>
-                  <a href="/products5" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Packaging Products</a>
-                  <a href="/products6" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Wet Wipes</a>
-                  <a href="/products7" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Cleaning Solutions</a>
+                  <a href="/products2" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Wet Wipes & Personal Hygiene</a>
+                  <a href="/products3" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">HORECA Products</a>
+                  <a href="/products4" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">OTC Products</a>
+                  <a href="/products5" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Lubes</a>
+                  <a href="/products6" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Cleaning Solutions</a>
+                  <a href="/products7" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Cleaning Tools</a>
                 </div>
               </div>
             </div>

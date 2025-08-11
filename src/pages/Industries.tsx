@@ -11,14 +11,14 @@ import digitalImage from "@/assets/400f757d06024e83e0d0f4282b756de8bacbe43a.png"
 import environmentImage from "@/assets/36bb4895978c5b0b618adfe7d948f0374153867e.png";
 
 const Industries = () => {
-  const industries = [
-    { src: techImage, alt: "Technology Industry", label: "Technology Solutions" },
-    { src: manufacturingImage, alt: "Manufacturing Industry", label: "Manufacturing" },
-    { src: softwareImage, alt: "Software Development", label: "Software Development" },
-    { src: businessImage, alt: "Business Solutions", label: "Business Solutions" },
-    { src: digitalImage, alt: "Digital Services", label: "Digital Services" },
-    { src: environmentImage, alt: "Environmental Solutions", label: "Environmental" },
-  ];
+ const industries = [
+  { src: techImage, alt: "Hospitality & HORECA", label: "Hospitality & HORECA" },
+  { src: manufacturingImage, alt: "Retail Chains & Distributors", label: "Retail Chains & Distributors" },
+  { src: softwareImage, alt: "Construction & Engineering", label: "Construction & Engineering" },
+  { src: businessImage, alt: "OEM Brands", label: "OEM Brands" },
+  { src: digitalImage, alt: "Hygiene & FMCG Brands", label: "Hygiene & FMCG Brands" },
+  { src: environmentImage, alt: "Automotive & Homecare Brands", label: "Automotive & Homecare Brands" },
+];
 
   return (
     <div className="min-h-screen">
