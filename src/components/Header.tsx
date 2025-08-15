@@ -28,6 +28,16 @@ const Header = () => {
                   <a href="/products5" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Lubes</a>
                   <a href="/products6" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Cleaning Solutions</a>
                   <a href="/products7" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Cleaning Tools</a>
+                  <a href="/products8" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Home Care Products</a>
+                  <a href="/products9" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Thermo Wares</a>
+                  <a href="/products10" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Meal Preparation Sets</a>
+                  <a href="/products11" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Meal Time & Organisers</a>
+                  <a href="/products12" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Containers</a>
+                  <a href="/products13" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Bath Time</a>
+                  <a href="/products14" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Packaging</a>
+                  <a href="/products15" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Outdoor & Construction</a>
+                  <a href="/products16" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Recyclable & Engineering</a>
+                  <a href="/products17" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Textiles</a>
                 </div>
               </div>
             </div>
@@ -45,4 +55,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header; 
