@@ -34,43 +34,30 @@ const WhyChooseSection = () => {
   ];
 
   return (
-    <section className="py-16" style={{ backgroundColor: '#F1F5EB' }}>
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-10">
-          <h2 className="text-4xl lg:text-6xl font-glancyr text-[#233362]">
+    <section className="py-12 sm:py-16" style={{ backgroundColor: '#F1F5EB' }}>
+      <div className="container mx-auto px-2 sm:px-4">
+        <div className="text-center mb-8 sm:mb-10">
+          <h2 className="text-2xl sm:text-4xl lg:text-6xl font-glancyr text-[#233362]">
             Why Choose Ralista?
           </h2>
         </div>
-
-        <div className="flex flex-col items-center gap-y-6">
-  {/* Top Row: 3 cards centered */}
-  <div className="flex flex-row gap-4 justify-center flex-wrap">
-    <FeatureCard {...features[0]} />
-    <FeatureCard {...features[1]} />
-    <FeatureCard {...features[2]} />
-  </div>
-
-  {/* Bottom Row: 2 cards centered with overlap */}
-  <div className="flex flex-row gap-4 justify-center -mt-6">
-    <FeatureCard {...features[3]} />
-    <FeatureCard {...features[4]} />
-  </div>
-</div>
-
-
-
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
+          {features.map((feature, idx) => (
+            <FeatureCard key={idx} {...feature} />
+          ))}
+        </div>
       </div>
     </section>
   );
 };
 
 const FeatureCard = ({ icon, title, description }) => (
-  <div className="w-96 h-60 bg-transparent text-left p-6 rounded-xl shadow-sm flex flex-col items-start">
-    <img src={icon} alt={title} className="w-12 h-12 mb-4" />
-    <h3 className="text-xl mb-4 font-semibold font-glancyr text-[#233362]">
+  <div className="w-full sm:w-80 lg:w-96 h-52 sm:h-60 bg-transparent text-left p-4 sm:p-6 rounded-xl shadow-sm flex flex-col items-start">
+    <img src={icon} alt={title} className="w-10 h-10 sm:w-12 sm:h-12 mb-3 sm:mb-4" />
+    <h3 className="text-base sm:text-xl mb-2 sm:mb-4 font-semibold font-glancyr text-[#233362]">
       {title}
     </h3>
-    <p className="text-sm font-linear-grotesk text-[#233362]">{description}</p>
+    <p className="text-xs sm:text-sm font-linear-grotesk text-[#233362]">{description}</p>
   </div>
 );
 
