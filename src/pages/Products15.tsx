@@ -48,15 +48,15 @@ export default function Products15() {
 
       {/* Hero */}
       <section className="relative overflow-hidden" style={{ backgroundColor: "#F1F5EB" }}>
-        <div className="container mx-auto px-4 py-8">
+        <div className="container mx-auto px-2 sm:px-4 py-6 sm:py-8">
           <div
-            className="text-white min-h-[60vh] relative overflow-hidden rounded-[2rem] mb-8 bg-cover bg-center bg-no-repeat"
+            className="text-white min-h-[40vh] sm:min-h-[60vh] relative overflow-hidden rounded-xl sm:rounded-[2rem] mb-6 sm:mb-8 bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: `url(${heroBg})` }}
           >
-            <div className="relative px-8 py-12 h-full flex items-start justify-start">
-              <div className="text-left ml-16 mt-24">
-                <h1 className="text-4xl lg:text-6xl font-glancyr mb-4 text-white">Products</h1>
-                <p className="text-lg font-linear-grotesk text-gray-300">Home &gt; Products &gt; Outdoor & Construction</p>
+            <div className="relative px-4 sm:px-8 py-6 sm:py-12 h-full flex items-start justify-start">
+              <div className="text-left ml-4 sm:ml-16 mt-8 sm:mt-24">
+                <h1 className="text-3xl sm:text-4xl lg:text-6xl font-glancyr mb-3 sm:mb-4 text-white">Products</h1>
+                <p className="text-base sm:text-lg font-linear-grotesk text-gray-300">Home &gt; Products &gt; Outdoor & Construction</p>
               </div>
             </div>
           </div>
