@@ -76,7 +76,7 @@ const categories = [
 
 export default function Products1() {
   return (
-    <div className="min-h-screen bg-[#F1F5EB]">
+    <div className="min-h-screen bg-[#ffffff]">
       <Header />
 
       {/* Hero */}

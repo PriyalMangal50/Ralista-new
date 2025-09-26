@@ -48,11 +48,11 @@ export default function Products16() {
   }, [query]);
 
   return (
-    <div className="min-h-screen bg-[#F1F5EB]">
+    <div className="min-h-screen bg-[#ffffff]">
       <Header />
 
       {/* Hero */}
-      <section className="relative overflow-hidden" style={{ backgroundColor: "#F1F5EB" }}>
+      <section className="relative overflow-hidden" style={{ backgroundColor: "#ffffff" }}>
         <div className="container mx-auto px-4 py-8">
           <div
             className="text-white min-h-[60vh] relative overflow-hidden rounded-[2rem] mb-8 bg-cover bg-center bg-no-repeat"
@@ -130,7 +130,7 @@ export default function Products16() {
       })}
 
       {/* Benefits */}
-      <section className="py-20 bg-gradient-to-b from-[#F1F5EB] to-[#e3ecdd] rounded-t-[3rem] relative overflow-hidden">
+      <section className="py-20 bg-gradient-to-b from-[#ffffff] to-[#e3ecdd] rounded-t-[3rem] relative overflow-hidden">
         <div className="absolute inset-0 opacity-[0.22] bg-[radial-gradient(circle_at_18%_32%,#c2d7ba,transparent_60%)]" />
         <div className="container mx-auto px-6 relative">
           <div className="max-w-4xl mb-14">
