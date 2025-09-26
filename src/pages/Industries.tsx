@@ -25,7 +25,7 @@ const Industries = () => {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden" style={{ backgroundColor: '#F1F5EB' }}>
+      <section className="relative overflow-hidden" style={{ backgroundColor: '#ffffff' }}>
         <div className="container mx-auto px-2 sm:px-4 py-6 sm:py-8">
           <div
             className="text-white min-h-[40vh] sm:min-h-[60vh] relative overflow-hidden rounded-xl sm:rounded-[2rem] mb-6 sm:mb-8 bg-cover bg-center bg-no-repeat"
@@ -46,7 +46,7 @@ const Industries = () => {
       </section>
 
       {/* Industries Grid Section */}
-      <section className="py-6" style={{ backgroundColor: '#F1F5EB' }}>
+      <section className="py-6" style={{ backgroundColor: '#ffffff' }}>
         <div className="container mx-auto px-2 sm:px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {industries.map((industry, idx) => (

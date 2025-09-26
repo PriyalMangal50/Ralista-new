@@ -39,7 +39,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className="py-20" style={{backgroundColor: '#F1F5EB'}}>
+    <section className="py-20" style={{backgroundColor: '#ffffff'}}>
       <div className="container mx-auto px-4 max-w-5xl">
         <div className="mb-12">
           <h2 className="text-4xl lg:text-5xl mb-4 font-glancyr" style={{color: '#233362'}}>

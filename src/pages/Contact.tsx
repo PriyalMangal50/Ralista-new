@@ -9,7 +9,7 @@ const Contact = () => {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden" style={{ backgroundColor: '#F1F5EB' }}>
+      <section className="relative overflow-hidden" style={{ backgroundColor: '#ffffff' }}>
         <div className="container mx-auto px-4 py-8">
           <div
             className="text-white min-h-[60vh] relative overflow-hidden rounded-[2rem] mb-8 bg-cover bg-center bg-no-repeat"

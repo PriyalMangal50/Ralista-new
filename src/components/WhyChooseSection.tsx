@@ -34,7 +34,7 @@ const WhyChooseSection = () => {
   ];
 
   return (
-    <section className="py-12 sm:py-16" style={{ backgroundColor: '#F1F5EB' }}>
+    <section className="py-12 sm:py-16" style={{ backgroundColor: '#ffffff' }}>
       <div className="container mx-auto px-2 sm:px-4">
         <div className="text-center mb-8 sm:mb-10">
           <h2 className="text-2xl sm:text-4xl lg:text-6xl font-glancyr text-[#233362]">

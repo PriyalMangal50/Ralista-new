@@ -16,7 +16,7 @@ const IndustriesSection = () => {
   ];
 
   return (
-    <section className="py-24" style={{backgroundColor: '#F1F5EB'}}>
+    <section className="py-24" style={{backgroundColor: '#ffffff'}}>
       <div className="container mx-auto px-4">
         <div className="bg-[#233362] rounded-[2rem] p-8">
           <div className="mb-8 flex justify-between items-center">

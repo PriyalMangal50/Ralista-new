@@ -8,7 +8,7 @@ const Header = () => {
     if (m) m.classList.toggle('hidden');
   };
   return (
-    <header className="bg-background text-brand-dark relative">
+  <header className="bg-white text-brand-dark relative">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo Image */}
@@ -28,19 +28,12 @@ const Header = () => {
                   <a href="/products1" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Personal Care Products</a>
                   <a href="/products2" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Wet Wipes & Personal Hygiene</a>
                   <a href="/products3" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">HORECA Products</a>
-                  <a href="/products4" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">OTC Products</a>
-                  <a href="/products5" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Lubes</a>
-                  <a href="/products6" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Cleaning Solutions</a>
-                  <a href="/products7" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Cleaning Tools</a>
-                  <a href="/products8" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Home Care Products</a>
-                  <a href="/products9" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Thermo Wares</a>
-                  <a href="/products10" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Meal Preparation Sets</a>
-                  <a href="/products11" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Meal Time & Organisers</a>
-                  <a href="/products12" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Containers</a>
-                  <a href="/products13" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Bath Time</a>
+                  <a href="/productsotchomecare" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">OTC & Home Care Products</a>
+                                    <a href="/productskitchenhomecare" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Kitchen and Home Care</a>
+
                   <a href="/products14" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Packaging</a>
                   <a href="/products15" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Outdoor & Construction</a>
-                  <a href="/products16" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Recyclable & Engineering</a>
+                  <a href="/products16" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Engineering</a>
                   <a href="/products17" className="block px-4 py-2 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Textiles</a>
                 </div>
               </div>
@@ -70,19 +63,12 @@ const Header = () => {
             <a href="/products1" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Personal Care Products</a>
             <a href="/products2" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Wet Wipes & Personal Hygiene</a>
             <a href="/products3" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">HORECA Products</a>
-            <a href="/products4" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">OTC Products</a>
-            <a href="/products5" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Lubes</a>
-            <a href="/products6" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Cleaning Solutions</a>
-            <a href="/products7" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Cleaning Tools</a>
-            <a href="/products8" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Home Care Products</a>
-            <a href="/products9" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Thermo Wares</a>
-            <a href="/products10" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Meal Preparation Sets</a>
-            <a href="/products11" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Meal Time & Organisers</a>
-            <a href="/products12" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Containers</a>
-            <a href="/products13" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Bath Time</a>
+            <a href="/products-otc-home-care" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">OTC & Home Care Products</a>
+            <a href="/productskitchenhomecare" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Kitchen and Home Care</a>
+
             <a href="/products14" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Packaging</a>
             <a href="/products15" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Outdoor & Construction</a>
-            <a href="/products16" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Recyclable & Engineering</a>
+            <a href="/products16" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Engineering</a>
             <a href="/products17" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Textiles</a>
             <a href="/industries" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Industries</a>
             <a href="/contact" className="px-6 py-3 text-brand-dark hover:bg-gray-100 font-linear-grotesk">Contact</a>
